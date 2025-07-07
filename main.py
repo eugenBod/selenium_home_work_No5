@@ -42,5 +42,5 @@ driver.find_element(By.XPATH, "//input[@id='user-name']").send_keys(user)
 # Находим поле ввода пароля с помощью XPath и вводим пароль
 driver.find_element(By.XPATH, "//input[@id='password']").send_keys(user_pass)
 
-# Находим кнопку Login с помощью XPath и нажимем на нее
+# Находим кнопку Login с помощью XPath и нажимаем на нее
 driver.find_element(By.XPATH, "//input[@id='login-button']").click()
